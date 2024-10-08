@@ -43,10 +43,6 @@ The **News Application** allows users to browse the latest news from various cat
 Download the latest APK [here](https://github.com/SURAJ-mahamuni/News-app/blob/main/news.apk).
 
 ## Screenshots
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
-    <img src="https://github.com/user-attachments/assets/990e3617-6187-4e50-94ce-24f16d6c3ac9" alt="home" style="width: 100%; height: auto;">
-    <img src="https://github.com/user-attachments/assets/e7c32dfb-be01-4717-a852-b909ebca2463" alt="search" style="width: 100%; height: auto;">
-    <img src="https://github.com/user-attachments/assets/0866b67d-8afc-4543-9143-b0cdd3b524ac" alt="saved news" style="width: 100%; height: auto;">
-    <img src="https://github.com/user-attachments/assets/677c9335-05b1-49ba-9ae2-9741f5e35c30" alt="news details" style="width: 100%; height: auto;">
-</div>
-
+| ![Home](https://github.com/user-attachments/assets/990e3617-6187-4e50-94ce-24f16d6c3ac9) | ![Search](https://github.com/user-attachments/assets/e7c32dfb-be01-4717-a852-b909ebca2463) | ![Saved News](https://github.com/user-attachments/assets/0866b67d-8afc-4543-9143-b0cdd3b524ac) | ![News Details](https://github.com/user-attachments/assets/677c9335-05b1-49ba-9ae2-9741f5e35c30) |
+|:---:|:---:|:---:|:---:|
+| Home Screen | Search Screen | Saved News Screen | News Details Screen |
