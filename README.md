@@ -41,3 +41,10 @@ The **News Application** allows users to browse the latest news from various cat
 
 ## APK Download
 Download the latest APK [here](https://github.com/SURAJ-mahamuni/News-app/blob/main/news.apk).
+
+## Screenshots
+![home](https://github.com/user-attachments/assets/990e3617-6187-4e50-94ce-24f16d6c3ac9)
+![search](https://github.com/user-attachments/assets/e7c32dfb-be01-4717-a852-b909ebca2463)
+![saved news](https://github.com/user-attachments/assets/0866b67d-8afc-4543-9143-b0cdd3b524ac)
+![news details](https://github.com/user-attachments/assets/677c9335-05b1-49ba-9ae2-9741f5e35c30)
+
