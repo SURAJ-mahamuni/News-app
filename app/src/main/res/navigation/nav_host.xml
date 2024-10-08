@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/menu_home">
+
+    <fragment
+        android:id="@+id/newsDetailsFragment"
+        android:name="com.study.news.fragment.NewsDetailsFragment"
+        android:label="fragment_news_details"
+        tools:layout="@layout/fragment_news_details">
+        <argument
+            android:name="newsData"
+            android:defaultValue=""
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="newsBgColor"
+            app:argType="integer" />
+    </fragment>
+    <navigation android:id="@+id/menu_home"
+        app:startDestination="@id/homeFragment">
+        <fragment
+            android:id="@+id/homeFragment"
+            android:name="com.study.news.fragment.HomeFragment"
+            android:label="fragment_home"
+            tools:layout="@layout/fragment_home"/>
+        <action
+            android:id="@+id/action_global_newsDetailsFragment"
+            app:destination="@id/newsDetailsFragment" />
+    </navigation>
+    <navigation android:id="@+id/menu_search"
+        app:startDestination="@id/searchFragment">
+        <fragment
+            android:id="@+id/searchFragment"
+            android:name="com.study.news.fragment.SearchFragment"
+            android:label="fragment_search"
+            tools:layout="@layout/fragment_search" />
+        <action
+            android:id="@+id/action_global_newsDetailsFragment3"
+            app:destination="@id/newsDetailsFragment" />
+    </navigation>
+    <navigation android:id="@+id/menu_saved"
+        app:startDestination="@id/savedFragment">
+        <fragment
+            android:id="@+id/savedFragment"
+            android:name="com.study.news.fragment.SavedFragment"
+            android:label="fragment_saved"
+            tools:layout="@layout/fragment_saved" />
+        <action
+            android:id="@+id/action_global_newsDetailsFragment2"
+            app:destination="@id/newsDetailsFragment" />
+    </navigation>
+</navigation>
