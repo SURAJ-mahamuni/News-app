@@ -1,4 +1,4 @@
-package com.study.news
+package com.study.news.api.helper
 
 import okhttp3.ResponseBody
 import retrofit2.Converter

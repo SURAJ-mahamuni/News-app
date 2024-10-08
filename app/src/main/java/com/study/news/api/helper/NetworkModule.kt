@@ -1,4 +1,4 @@
-package com.study.news
+package com.study.news.api.helper
 
 import com.study.news.api.ApiInterceptor
 import com.study.news.api.apiManagerHelper.RetrofitApi
