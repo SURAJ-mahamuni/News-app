@@ -40,4 +40,4 @@ The **News Application** allows users to browse the latest news from various cat
 - **View saved news in the "Saved News" section.
 
 ## APK Download
-Download the latest APK [here](https://github.com/your-username/news-app/releases).
+Download the latest APK [here](https://github.com/SURAJ-mahamuni/News-app/blob/main/news.apk).
